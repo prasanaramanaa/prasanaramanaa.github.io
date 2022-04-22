@@ -1,0 +1,23 @@
+Blue
+ #4096ee 0%, #39ced6 100%
+
+Dark Blue
+ #191714 0%, #2234ae 100%
+
+Red
+ #a71d31 0%, #3f0d12 100%
+
+Yellow
+ #9dfbc8 0%, #f5f186 100%
+
+Dark Yellow
+ #fbd72b 0%, #f9484a 100%
+
+Green
+ #233329 0%, #63d471 100%
+
+Black
+ #000000 0%, #166d3b 100%
+
+White Blue
+ #f5f7fa 0%, #b8c6db 100%
