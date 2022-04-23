@@ -199,10 +199,10 @@
 		position: fixed;
 		top: 0;
 		z-index: 6666;
-		background-color: rgba(0,0,0,0.6);
+		background-color: rgba(250,250,250,0.2);
 	}
 	#navigation button i {
-		color: rgba(250,250,250);
+		color: rgba(0,0,0);
 	}
 	.welcome-box {
 		padding: 150px 0px;
