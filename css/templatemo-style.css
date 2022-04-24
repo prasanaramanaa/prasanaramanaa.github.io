@@ -539,6 +539,14 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 
+.mememe {
+    display: flex;
+}
+
+.meme2 {
+    padding-top: 4.5rem;
+}
+
 .about-img {
     margin: 0 auto 40px;
     position: relative;
