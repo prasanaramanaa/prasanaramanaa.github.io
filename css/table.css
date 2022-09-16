@@ -39,6 +39,9 @@ dl {
   dl {
     padding-left: 2vw;
   }
+  dt{
+    font-size: 2vmax;
+  }
 }
 @media (min-width: 1024px) {
   dl {
@@ -55,7 +58,7 @@ dt {
   counter-increment: count;
   color: #4f6d7a;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1vmax;
   text-transform: uppercase;
 }
 
