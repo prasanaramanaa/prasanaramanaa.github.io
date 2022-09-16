@@ -29,9 +29,10 @@ html {
 /* LIST */
 dl {
   counter-reset: count;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 20%, rgba(255, 255, 255, 0) 0%);
-  padding-left: 4vw;
-  padding-right: 4vw;
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.795), rgba(255, 254, 254, 0.596));
+  border-radius: 15%;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin: 0;
 }
 @media (min-width: 768px) {
@@ -54,15 +55,16 @@ dt {
   counter-increment: count;
   color: #4f6d7a;
   font-family: "Montserrat", sans-serif;
-  font-size: 4vw;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 dt::before {
-  content: counter(count, decimal-leading-zero) ".";
+  content: "🟌";
+  /*content: counter(count, decimal-leading-zero) ".";*/
   font-family: "Abril Fatface", cursive;
   color: #5ea5b8;
-  margin-left: -1vw;
+  margin-left: 0vw;
   padding-right: 12px;
 }
 
