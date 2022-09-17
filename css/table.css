@@ -5,10 +5,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /*media queries*/
-
 html {
   box-sizing: border-box;
-}*,
+}
+
+*,
 *:before,
 *:after {
   box-sizing: inherit;
@@ -29,18 +30,14 @@ html {
 /* LIST */
 dl {
   counter-reset: count;
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.795), rgba(255, 254, 254, 0.596));
-  border-radius: 15%;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 20%, rgba(255, 255, 255, 0) 0%);
+  padding-left: 4vw;
+  padding-right: 4vw;
   margin: 0;
 }
 @media (min-width: 768px) {
   dl {
     padding-left: 2vw;
-  }
-  dt{
-    font-size: 2vmax;
   }
 }
 @media (min-width: 1024px) {
@@ -58,16 +55,15 @@ dt {
   counter-increment: count;
   color: #4f6d7a;
   font-family: "Montserrat", sans-serif;
-  font-size: 1vmax;
+  font-size: 4vw;
   text-transform: uppercase;
 }
 
 dt::before {
-  content: "🟌";
-  /*content: counter(count, decimal-leading-zero) ".";*/
+  content: counter(count, decimal-leading-zero) ".";
   font-family: "Abril Fatface", cursive;
   color: #5ea5b8;
-  margin-left: 0vw;
+  margin-left: -1vw;
   padding-right: 12px;
 }
 

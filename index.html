@@ -548,11 +548,35 @@ https://templatemo.com/tm-528-elegance
                                         color: #444444;
                                         line-height: 2;
                                         border-radius: 2%;
-                                        
+                                    }
+                                    .resp-container {
+                                        height: 700px;
+                                        width: 100%;
+                                        background-color: transparent;
+                                        position:relative;
+                                        overflow: hidden;
+                                    }
+                                    @media only screen and (max-width: 768px) {
+                                        /* For mobile phones: */
+                                        .resp-container {
+                                            padding-bottom: 0%;
+                                        }
+                                      }
+                                    .resp-iframe {
+                                        left: 0;
+                                        top:0;
+                                        width: 100%;
+                                        height: 100%;
+                                        border: 0;
                                     }
                                 </style>
                                 <div class="testimonials-section ">
                                     <div class="testimonials-slider owl-carousel">
+                                        
+                                        <div class="animate resp-container" data-animate="fadeInUp ">   <!--pointer-events:none-->
+                                            <iframe class="resp-iframe" src="table.html"  title="description"></iframe>
+                                        </div>
+<!--
                                         <div class="animate table" data-animate="fadeInUp ">   
                                             <section class="dl-blurbs">
                                                 <dl>
@@ -652,6 +676,7 @@ https://templatemo.com/tm-528-elegance
                                                     </section>
                                             </div>
                                         </div>
+-->
 <!--
                                         <div class=" animate table" data-animate="fadeInUp ">   
                                             <div class="testimonial-item "> 
