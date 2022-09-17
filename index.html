@@ -553,13 +553,21 @@ https://templatemo.com/tm-528-elegance
                                         height: 700px;
                                         width: 100%;
                                         background-color: transparent;
-                                        position:relative;
-                                        overflow: hidden;
+                                        /*position:relative;
+                                        /*overflow: hidden;*/
                                     }
                                     @media only screen and (max-width: 768px) {
                                         /* For mobile phones: */
                                         .resp-container {
-                                            padding-bottom: 0%;
+                                            padding-bottom: 40%;
+                                        }
+                                        .resp-iframe {
+                                            position:absolute;
+                                            top: 0;
+                                            left: 0;
+                                            height: 100%;
+                                            width: 1000px;
+                                            padding-bottom: 40%;
                                         }
                                       }
                                     .resp-iframe {
@@ -571,11 +579,12 @@ https://templatemo.com/tm-528-elegance
                                     }
                                 </style>
                                 <div class="testimonials-section ">
+                                    <div class="animate resp-container" data-animate="fadeInUp ">   <!--pointer-events:none-->
+                                        <iframe class="resp-iframe" src="table.html"  title="description"></iframe>
+                                    </div>
                                     <div class="testimonials-slider owl-carousel">
                                         
-                                        <div class="animate resp-container" data-animate="fadeInUp ">   <!--pointer-events:none-->
-                                            <iframe class="resp-iframe" src="table.html"  title="description"></iframe>
-                                        </div>
+                                        
 <!--
                                         <div class="animate table" data-animate="fadeInUp ">   
                                             <section class="dl-blurbs">

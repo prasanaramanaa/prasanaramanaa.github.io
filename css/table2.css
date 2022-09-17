@@ -60,6 +60,15 @@
     .leaderboard__profiles {
         grid-template-columns: auto;
       }
+      .leaderboard header .leaderboard__title--top {
+          font-size: 15px;
+      }
+      .leaderboard header .leaderboard__title--bottom {
+          font-size: 10px;
+      }
+    .leaderboard__name {
+        font-size: 16px;
+    }
   }
 .leaderboard__profile {
   display: grid;
@@ -86,7 +95,6 @@
 .leaderboard__name {
   color: #777777;
   font-weight: 700;
-  font-size: 1.25vw;
   letter-spacing: 0.64px;
   margin-left: 12px;
 }
