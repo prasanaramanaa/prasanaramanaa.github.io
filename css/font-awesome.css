@@ -4,6 +4,16 @@
  */
 /* FONT PATH
  * -------------------------- */
+
+ @font-face {
+  font-family: 'Varelaround';
+  src: url('../fonts/varelaround-regular-webfont.woff2') format('woff2'),
+       url('../fonts/varelaround-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}	
+
+
 @font-face {
     font-family: 'KosugiMaru';
     src: url('../fonts/kosugimaru-webfont.woff2') format('woff2'),
